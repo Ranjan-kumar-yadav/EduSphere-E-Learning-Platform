@@ -1,0 +1,21 @@
+# XAMPP / local files
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database configuration
+config.php
+db_conn.php
