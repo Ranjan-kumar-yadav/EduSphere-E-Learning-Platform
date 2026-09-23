@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`, `status`, `created_at`) VALUES
-(1, 'Admin', 'admin@gmail.com', 'admin123', '', '0000-00-00 00:00:00.000000');
+(1, 'Admin', 'admin@example.com', 'CHANGE_ME', '', '0000-00-00 00:00:00.000000');
 
 -- --------------------------------------------------------
 
@@ -112,8 +112,8 @@ CREATE TABLE `query` (
 --
 
 INSERT INTO `query` (`id`, `name`, `email`, `subject`, `message`, `status`, `created_at`) VALUES
-(1, '0', '0', '0', '0', 'Active', '2025-07-18 16:55:12.315512'),
-(2, 'hello', 'hello1@gmail.com', 'fxgchn', 'vcbnm,', 'Active', '2025-07-21 06:50:39.065736');
+(1, 'Demo User', 'user@example.com', 'Demo Query', 'This is sample query data.', 'Active', '2025-07-18 16:55:12.315512'),
+(2, 'Test User', 'test@example.com', 'Test Query', 'This is sample message data.', 'Active', '2025-07-21 06:50:39.065736');
 
 -- --------------------------------------------------------
 
@@ -137,9 +137,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `password`, `contact`, `address`, `status`, `created_at`) VALUES
-(1, 'user', 'user@gmail.com', '123', '55634653', 'HSP', 'Active', '0000-00-00 00:00:00.000000'),
-(2, 'Rohit', 'Rohit@gmail.com', '123', '623642174', 'rdtyufgihojkp', 'Active', '2025-07-18 16:40:45.881571'),
-(3, 'honey', 'honey@gmail.com', '123', '5635636535636', 'xcfbn.,m', 'Active', '2025-07-22 04:27:20.579956');
+(1, 'Demo User', 'user@example.com', 'CHANGE_ME', '0000000000', 'Demo Address', 'Active', '2025-07-18 16:40:45.000000'),
+(2, 'Test User', 'test@example.com', 'CHANGE_ME', '0000000000', 'Demo Address', 'Active', '2025-07-18 16:40:45.000000'),
+(3, 'Sample User', 'sample@example.com', 'CHANGE_ME', '0000000000', 'Demo Address', 'Active', '2025-07-18 16:40:45.000000');
 
 --
 -- Indexes for dumped tables
