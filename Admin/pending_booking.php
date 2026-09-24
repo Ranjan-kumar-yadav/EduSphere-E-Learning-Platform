@@ -79,9 +79,9 @@
                                 <td><?php echo $row['user_name']; ?></td> <!-- Display user name -->
                                 <td><?php echo $row['user_email']; ?></td> <!-- Display user email -->
                                 <td><?php echo $row['status']; ?></td> <!-- Display status here -->
-                                <td>
-                                    <a href="accept_booking_status.php?id=<?php echo $row['booking_id']; ?>"><button class="btn btn-success">Accept</button></a>
-                                    <a href="Reject_booking_status.php?id=<?php echo $row['booking_id']; ?>"><button class="btn btn-danger ms-3">Reject</button></a>
+                                <td class="d-flex">
+                                    <a href="accept_booking_status.php?id=<?php echo $row['booking_id']; ?>"><button class="btn btn-success  btn-sm">Accept</button></a>
+                                    <a href="Reject_booking_status.php?id=<?php echo $row['booking_id']; ?>"><button class="btn btn-danger ms-3 btn-sm">Reject</button></a>
                                 </td>
                             </tr>
                         <?php $s++;
