@@ -4,15 +4,52 @@ EduSphere is a PHP and MySQL based e-learning platform developed to provide a si
 
 ## 🚀 Features
 
-* User registration and login
-* User authentication and logout
-* Course browsing and searching
-* Course enrollment/booking functionality
-* Admin panel for managing platform content
-* Database-driven course and user management
-* Contact and feedback functionality
-* Responsive user interface
-* PHP and MySQL backend integration
+### 🏠 Home Page
+- Responsive homepage with image carousel
+- Services section
+- About section
+- Course section for browsing available courses
+
+### 📚 Course Management
+- Users can browse available courses
+- Course details can be viewed before enrollment
+- Course selection is connected with user authentication
+- Users must log in before accessing course enrollment/booking functionality
+
+### 🔐 User Authentication
+- User registration
+- User login and logout
+- Authentication-based course access
+- Unauthenticated users are redirected to the login page when attempting to access protected course functionality
+
+### 👨‍💼 Admin Panel
+- Admin login
+- Course management
+- User management
+- Booking/enrollment management
+- Query/contact management
+
+### 🔎 Other Features
+- Course search functionality
+- Contact and feedback functionality
+- Database-driven content
+- Responsive Bootstrap-based interface
+
+## 📸 Screenshots
+
+### 🏠 Home Page — Hero & Navigation
+![EduSphere Home Page](screenshots/home-hero.png)
+
+### 📚 Services & About
+![EduSphere Services and About](screenshots/services-about.png)
+
+### 🎓 Courses
+![EduSphere Courses](screenshots/courses.png)
+
+### 🔐 Course Authentication
+Users can browse courses without logging in. When an unauthenticated user tries to book a course, the system requires login before proceeding.
+
+![Course Login Requirement](screenshots/course-login-required.png)
 
 ## 🛠️ Technologies Used
 
