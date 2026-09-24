@@ -21,4 +21,4 @@ config.php
 db_conn.php
 
 # cousre image folder
-upload
+/upload/
