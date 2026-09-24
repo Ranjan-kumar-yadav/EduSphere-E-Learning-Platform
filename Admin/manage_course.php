@@ -67,9 +67,15 @@
                                 
                                 <td><?php echo $row['price']; ?></td>
                                 <td><?php echo $row['description']; ?></td>
-                                <td><a href="delete_course.php?id=<?php echo $row['id']; ?>"><button class="btn btn-danger">Delete</button></a>
-                                    <a href="update_course.php?id=<?php echo $row['id']; ?>"> <button class="btn btn-primary ms-3">Update</button></a>
-                                </td>
+                                <td class="d-flex">
+    <a href="delete_course.php?id=<?php echo $row['id']; ?>" class="me-2">
+        <button class="btn btn-danger btn-sm">Delete</button>
+    </a>
+    <a href="update_course.php?id=<?php echo $row['id']; ?>">
+        <button class="btn btn-primary btn-sm">Update</button>
+    </a>
+</td>
+
                             </tr>
                         <?php $s++;
                         }  ?>
