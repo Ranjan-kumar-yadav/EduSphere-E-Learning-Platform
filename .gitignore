@@ -19,3 +19,6 @@ Thumbs.db
 # Database configuration
 config.php
 db_conn.php
+
+# cousre image folder
+upload
