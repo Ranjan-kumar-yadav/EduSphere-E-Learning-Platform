@@ -111,13 +111,16 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="upload/<?php echo $row['image']; ?>" style="height:200px" alt="">
+                            <img class="img-fluid" src="upload/<?php echo $row['image']; ?>" 
+     style="height:200px; width:100%; object-fit:cover;" alt="">
+
 
                         </div>
                         <div class="text-center p-4 pb-0">
 
                             <h5 class=""><?php echo $row['course_name'] ?></h5>
-                            <p><?php echo $row['description'] ?> </p>
+                            <p style="text-align: justify;"><?php echo $row['description'] ?> </p>
+
                         </div>
                        <form method="post">
                         <input type="hidden" name="course_id" value="<?php echo $row['id']; ?>">
